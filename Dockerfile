@@ -1,5 +1,4 @@
 FROM ubuntu:14.04
-MAINTAINER sameer@damagehead.com
 
 RUN apt-get update \
  && apt-get install -y supervisor logrotate openjdk-7-jre \
